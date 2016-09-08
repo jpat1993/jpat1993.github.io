@@ -1,6 +1,29 @@
 
 /* iPad (portrait) */
 @media (min-width: 320px) and (max-width: 579px) {
+#text-block { 
+    position: absolute;
+    top: 24%;
+    right: 10%;
+    width: 30%;
+    color: white;
+    font-family: 'Tangerine', serif;
+    /*background: coral;*/
+    font-size: 12px;
+    text-align: center;
+}
+#text-block h2{ 
+   font-size:12px;
+}
+#text-block h4{ 
+   display:none;
+}
+
+#text-block a {
+    text-decoration: none;
+    outline: none;
+    font-size: 12px;
+}
 
 .menu{
   display:none;
@@ -125,6 +148,30 @@ textarea{
 
 /* iPad (portrait) */
 @media (min-width: 580px) and (max-width: 767px) {
+
+#text-block { 
+    position: absolute;
+    top: 24%;
+    right: 10%;
+    width: 30%;
+    color: white;
+    font-family: 'Tangerine', serif;
+    /*background: coral;*/
+    font-size: 16px;
+    text-align: center;
+}
+#text-block h2{ 
+   font-size:25px;
+}
+#text-block h4{ 
+   display:none;
+}
+
+#text-block a {
+    text-decoration: none;
+    outline: none;
+    font-size: 25px;
+}
 
 .menu{
   display:none;
@@ -261,7 +308,27 @@ textarea{
 
 /* iPad (portrait) */
 @media (min-width: 768px) and (max-width: 1023px) {
+#text-block { 
+    position: absolute;
+    top: 24%;
+    right: 10%;
+    width: 30%;
+    color: white;
+    font-family: 'Tangerine', serif;
+    /*background: coral;*/
+    font-size: 16px;
+    text-align: center;
+}
+#text-block h2{ 
+   font-size:25px;
+}
 
+
+#text-block a {
+    text-decoration: none;
+    outline: none;
+    font-size: 25px;
+}
 
 
 .menu-content .logo{

@@ -391,6 +391,151 @@ h1 span{
   color:#ada074;
 }
 
+/* Bapa page */
+#bapaPic {
+  position: relative; 
+  width: 100%;
+}
+
+#text-block { 
+    position: absolute;
+    top: 24%;
+    right: 10%;
+    width: 40%;
+    color: white;
+    font-family: 'Tangerine', serif;
+    /*background: coral;*/
+    font-size: 30px;
+    text-align: center;
+}
+#text-block h2{ 
+   font-size:45px;
+}
+
+#text-block a {
+    text-decoration: none;
+    outline: none;
+    font-size: 30px;
+}
+
+.bapa-page{
+  position:relative;
+  width:100%;
+  /*height:100%;*/
+  z-index:10;
+  background:white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bapa-page hr{
+  color: white;
+  margin-top:30px;
+  background-color: white;
+  height: 1px;
+  width:106px;
+  border:0;
+
+}
+
+.bapa-page .opacity{
+  position:absolute;
+  width:100%;
+  height:100%;
+  background:rgba(51,51,51,0.5); /* Standard Off */
+}
+
+
+.bapa-page .content{
+  position:relative;
+  width:700px;
+  margin:0 auto;
+  height:100%;
+}
+
+.bapa-page .content .text{
+  position:absolute;
+  text-align:center;
+  margin:auto;
+  top:0; 
+  left:0; 
+  bottom:0; 
+  right:0;
+  width:700px;
+  height:520px;
+}
+
+.bapa-page .content .text .logo{
+  width:123px;
+  height:123px;
+  margin:0 auto 50px;
+  
+}
+
+
+.bapa-page .content .text .read-more{
+  width:183px;
+  height:47px;
+  margin:100px auto;
+  line-height:47px;
+  border:1px solid white;
+  text-transform:uppercase;
+  color:white;
+  display:block;
+  cursor:pointer;
+  font-size:14px;
+  letter-spacing:1px;
+  background:none;
+  -webkit-transition: all 0.6s ease-in;
+	-moz-transition: all 0.6s ease-in;
+	-ms-transition: all 0.6s ease-in;
+	-o-transition: all 0.6s ease-in;
+	transition: all 0.6s ease-in;
+}
+
+.bapa-page .content .text .read-more:hover{
+  color:white;
+  background: #ada074;
+  border:1px solid #ada074;
+}
+
+.bapa-page .content .arrow-down{
+  position: absolute;
+  bottom: 110px;
+  left: 50%;
+  margin-left: -10px;
+  width: 21px;
+  height: 29px;
+  background: url(../img/arrow-down.png) no-repeat center center;
+  display: block;
+  -webkit-animation: bounce-fade 1.2s infinite; /* Safari 4+ */
+  -moz-animation:    bounce-fade 1.2s infinite; /* Fx 5+ */
+  -o-animation:      bounce-fade 1.2s infinite; /* Opera 12+ */
+   animation:        bounce-fade 1.2s infinite; /* IE 10+ */
+}
+
+
+@-webkit-keyframes bounce-fade {
+    0%   { opacity: 0; bottom: 70px; }
+    100% { opacity: 1; bottom: 35px; }
+}
+@-moz-keyframes bounce-fade {
+    0%   { opacity: 0; bottom: 70px; }
+    100% { opacity: 1; bottom: 35px; }
+}
+@-o-keyframes bounce-fade {
+    0%   { opacity: 0; bottom:70px; }
+    100% { opacity: 1; bottom: 35px; }
+}
+@keyframes bounce-fade {
+    0%   { opacity: 0; bottom: 70px; }
+    100% { opacity: 1; bottom: 35px; }
+}
+
+
+
 
 /* About us */
 
@@ -841,7 +986,7 @@ h1 span{
 .portfolio5{
   position:relative;
   width:100%;
-  background:#f3f3f3;
+  background:white;
   z-index:10;
   height:initial;
   padding-bottom: 50px;
@@ -894,6 +1039,73 @@ h1 span{
 }
 
 .portfolio5 .portfolio5-margin hr{
+  color: black;
+  margin-top:30px;
+  background-color: black;
+  height: 1px;
+  width:106px;
+  border:0;
+}
+
+/* Publications */
+
+
+.portfolioPub{
+  position:relative;
+  width:100%;
+  background:#f3f3f3;
+  z-index:10;
+  height:initial;
+  padding-bottom: 50px;
+
+}
+
+.portfolioPub .portfolioPub-margin{
+  position:relative;
+  width:900px;
+  overflow:hidden;
+  margin:0 auto;
+}
+
+.portfolioPub .portfolioPub-margin .read-more{
+  width:183px;
+  height:47px;
+  position:relative;
+  margin:50px auto 100px;
+  line-height:47px;
+  border:1px solid #333333;
+  text-transform:uppercase;
+  text-align:center;
+  color:#333333;
+  cursor:pointer;
+  font-size:14px;
+  background:none;
+  -webkit-transition: all 0.6s ease-in;
+  -moz-transition: all 0.6s ease-in;
+  -ms-transition: all 0.6s ease-in;
+  -o-transition: all 0.6s ease-in;
+  transition: all 0.6s ease-in;
+  letter-spacing:1px;
+}
+
+.portfolioPub .portfolioPub-margin .read-more:hover{
+  background:#ada074;
+  color:black;
+  border:1px solid #ada074;
+}
+
+.portfolioPub .portfolioPub-margin h1{
+  font-size:34px;
+  color:black;
+  text-align:center;
+  margin-top:120px;
+  letter-spacing:6px;
+  font-weight:bold;
+  text-transform:uppercase;
+  line-height:1.2;
+}
+
+.portfolioPub .portfolioPub-margin hr{
   color: black;
   margin-top:30px;
   background-color: black;
@@ -985,7 +1197,7 @@ h1 span{
 .contact{
   position:relative;
   width:100%;
-  background:white;
+  background:#f3f3f3;
   z-index:10;
   overflow:hidden;
   margin-bottom: 150px;  

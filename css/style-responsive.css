@@ -62,7 +62,7 @@ h1 {
   width:106px;
 }
 
-.portfolio2 .portfolio2-margin hr .portfolio4 .portfolio4-margin hr, .portfolio5 .portfolio5-margin hr{
+.portfolioPub .portfolioPub-margin hr .portfolio2 .portfolio2-margin hr .portfolio3 .portfolio3-margin hr .portfolio4 .portfolio4-margin hr, .portfolio5 .portfolio5-margin hr{
   width:106px;
 }
 
@@ -81,7 +81,7 @@ h1 {
   width:300px;
 }
 
-.portfolio2 .portfolio2-margin, .portfolio3 .portfolio3-margin, .portfolio4 .portfolio4-margin, .portfolio5 .portfolio5-margin{
+.portfolioPub .portfolioPub-margin .portfolio2 .portfolio2-margin, .portfolio3 .portfolio3-margin, .portfolio4 .portfolio4-margin, .portfolio5 .portfolio5-margin{
   width:300px;
 }
 
@@ -218,7 +218,7 @@ h1 {
   width:106px;
 }
 
-.portfolio2 .portfolio2-margin hr, .portfolio3 .portfolio3-margin hr, .portfolio4 .portfolio4-margin hr, .portfolio5 .portfolio5-margin hr {
+.portfolioPub .portfolioPub-margin hr .portfolio2 .portfolio2-margin hr, .portfolio3 .portfolio3-margin hr, .portfolio4 .portfolio4-margin hr, .portfolio5 .portfolio5-margin hr {
   width:106px;
 }
 
@@ -236,7 +236,7 @@ h1 {
   width:300px;
 }
 
-.portfolio2 .portfolio2-margin, .portfolio3 .portfolio3-margin, .portfolio4 .portfolio4-margin, .portfolio5 .portfolio5-margin {
+.portfolioPub .portfolioPub-margin .portfolio2 .portfolio2-margin, .portfolio3 .portfolio3-margin, .portfolio4 .portfolio4-margin, .portfolio5 .portfolio5-margin {
   width:300px;
 }
 
@@ -367,7 +367,7 @@ textarea{
   width:600px;
 }
 
-.portfolio2 .portfolio2-margin, .portfolio3 .portfolio3-margin, .portfolio4 .portfolio4-margin, .portfolio5 .portfolio5-margin {
+.portfolioPub .portfolioPub-margin .portfolio2 .portfolio2-margin, .portfolio3 .portfolio3-margin, .portfolio4 .portfolio4-margin, .portfolio5 .portfolio5-margin {
   width:600px;
 }
 
